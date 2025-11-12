@@ -10,7 +10,7 @@ const app = express();
 const JWT_SIGNING_KEY =
   "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff";
 
-app.use(express.static(path.join(__dirname, "static")));
+app.use(express.static(__dirname));
 
 app.get("/api/auth", (req, res) => {
   const user = {
