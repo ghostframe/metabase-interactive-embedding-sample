@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embedding workshop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="min-h-screen flex">
+      <main class="flex-1 content">
+        <div class="bg-white shadow-sm p-4">
+          <h2 id="page-title" class="text-xl font-semibold">
+            Embedding workshop
+          </h2>
+        </div>
+
+        <div id="content" class="p-6">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <p class="mb-4">
+              Below is a dashboard embedded with
+              <a
+                class="text-blue-500"
+                href="https://www.metabase.com/docs/latest/embedding/interactive-embedding"
+                >Interactive Embedding</a
+              >
+            </p>
+            <iframe
+              src="http://localhost:3000/dashboard/1?new_button=true&side_nav=false&title=false"
+              width="100%"
+              height="600px"
+            ></iframe>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
