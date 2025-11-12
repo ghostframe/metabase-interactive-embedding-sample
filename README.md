@@ -13,10 +13,8 @@
 2) insert your Pro/Enterprise token in line 12 of the docker-compose.yml file. You can edit this file with the notepad or any text editor.
 3) insert your database connection string on line 62 (you can leave the default if needed). Same as above, any text editor is fine.
 4) run `docker compose up` on the base folder of the repository. It will take some time till all the services come up.
-5) now choose your backend (python, node or php).
-6) go to the directory where the backend of your choice is located (e.g. nodejs_backend you type `cd nodejs_backend`)
-6) install the required dependencies (e.g. if you're using nodejs you'll have to type `npm install`)
-7) fire up the server and go to http://localhost:9090 (e.g. if you're using nodejs you'll have to type `node --watch server.js`)
+6) install the required dependencies (`npm install`)
+7) fire up the server and go to http://localhost:9090
 
 ## How to run in Windows
 

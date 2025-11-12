@@ -5,27 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Embedding workshop</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script defer src="http://localhost:3000/app/embed.js"></script>
-
-    <script>
-      function defineMetabaseConfig(config) {
-        window.metabaseConfig = config;
-      }
-      defineMetabaseConfig({
-        instanceUrl: "http://localhost:3000",
-        theme: {
-          fontFamily: "Lato",
-          fontSize: "16px",
-          colors: {
-            background: "#ffffff",
-            "text-primary": "#111827",
-            brand: "#3b82f6",
-            filter: "#6b7280",
-            summarize: "#10b981",
-          },
-        },
-      });
-    </script>
   </head>
   <body class="bg-gray-100">
     <div class="min-h-screen flex">
@@ -39,7 +18,7 @@
         <div id="content" class="p-6">
           <div class="bg-white p-6 rounded-lg shadow">
             <p class="mb-4">
-              Below is a dashboard embedded with
+              Let's embed a dashboard below with
               <a
                 class="text-blue-500"
                 href="https://www.metabase.com/docs/latest/embedding/embedded-analytics-js"
@@ -47,11 +26,7 @@
               >
             </p>
 
-            <metabase-dashboard
-              dashboard-id="1"
-              with-title="false"
-            ></metabase-dashboard>
-
+            <p>(Insert embedding code here) </p>
 
           </div>
         </div>
